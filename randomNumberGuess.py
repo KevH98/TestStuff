@@ -16,7 +16,6 @@ if __name__ == '__main__':
     btn1.pack(side=LEFT)
     root.mainloop()
 
-#""" random number code
     mySn = int(input("enter the range for the random number: "))
     sn = secretnumber(mySn)
     goes = 6
@@ -34,4 +33,3 @@ if __name__ == '__main__':
         if i != goes:
             myguess = int(input("please another guess at the number: "))
     print("Sorry you had too many goes")
-
